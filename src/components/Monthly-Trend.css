@@ -1,0 +1,33 @@
+.MonthlyTrend{
+    margin: 10px 0px;
+    padding: 20px;
+    flex: 0.7;
+    background: linear-gradient(
+        180deg,
+        #141c28 0%,
+        #111827 45%,
+        #0F172A 100%
+    );
+    border: 1px solid #1F2937;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.MonthlyTrend:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.MonthlyTrend h1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #F8FAFC;
+    margin-bottom: 20px;
+}
+
+
+.chart{
+    width: 100%;
+    height: 400px;
+}
